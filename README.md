@@ -12,6 +12,19 @@ A cross-platform desktop assistant built with Python, offering voice and GUI con
 - Play music/videos from YouTube
 - Multithreaded task management
 - GUI with task monitor and voice control
+- App Launcher
+- Browser Integration
+- Calendar Support
+- Camera Access
+- Chatbot Interaction
+- Email Services
+- File Management
+- Location Services
+- Media Player
+- System Monitor
+- Notes Management
+- Screen Capture
+- System Tools (CPU, Memory, Processes)
 
 ## 📁 Project Structure
 ```
@@ -24,10 +37,19 @@ A cross-platform desktop assistant built with Python, offering voice and GUI con
 ├── task_manager.py        # Thread/task management
 ├── services/              # Modular features
 │   ├── apps.py            # Application launcher
+│   ├── browser.py         # Web search and browser control
+│   ├── calendar.py        # Calendar functions
+│   ├── camera.py          # Webcam support
+│   ├── chatbot.py         # Chatbot interaction
 │   ├── emailer.py         # Email service
+│   ├── files.py           # File manager
 │   ├── geolocation.py     # Location fetch
-│   ├── media.py           # YouTube search and play
+│   ├── media.py           # YouTube/music player
+│   ├── monitor.py         # System monitoring
+│   ├── notes.py           # Notes storage
 │   ├── reminder.py        # Reminder setter
+│   ├── screen.py          # Screen tools (capture, etc.)
+│   ├── system.py          # System tools
 │   ├── speech.py          # TTS & STT
 │   └── weather.py         # Weather data fetch
 ├── .env                   # Environment variables (API keys, email credentials)
@@ -77,3 +99,4 @@ Keep your `.env` file safe and never expose it publicly.
 
 ## 📄 License
 MIT License
+
