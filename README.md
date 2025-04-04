@@ -58,8 +58,8 @@ A cross-platform desktop assistant built with Python, offering voice and GUI con
 ## 🔧 Setup
 1. **Clone the repo**
 ```bash
-git clone https://github.com/yourusername/desktop-assistant.git
-cd desktop-assistant
+git clone https://github.com/Deepanshu-DA/Multi_task_assistant.git
+cd Multi_task_assistant
 ```
 2. **Install dependencies**
 ```bash
